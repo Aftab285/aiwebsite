@@ -46,7 +46,7 @@ export function HeroSection({ onDemoClick }: HeroSectionProps) {
             animation: 'heroFadeUp 0.6s ease-out 0.45s both',
           }}
         >
-          The AI platform built specifically for hospice teams.
+          The <span className="bg-[#F97316] px-3 py-1 rounded-xl mx-1 whitespace-nowrap inline-block">AI platform</span> built specifically for hospice teams.
         </h1>
 
         <p
