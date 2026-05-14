@@ -50,8 +50,11 @@ export function HeroSection({ onDemoClick }: HeroSectionProps) {
         </h1>
 
         <p
-          className="text-base lg:text-lg text-white/88 leading-relaxed max-w-[620px] mt-5"
-          style={{ animation: 'heroFadeUp 0.5s ease-out 0.6s both' }}
+          className="text-base lg:text-lg text-white leading-relaxed max-w-[620px] mt-5"
+          style={{ 
+            animation: 'heroFadeUp 0.5s ease-out 0.6s both',
+            textShadow: '0 1px 4px rgba(0,0,0,0.3)' 
+          }}
         >
           Prompted helps hospice organizations reduce documentation burden, improve consistency, support compliance, and reclaim time for patient care — without replacing your EMR or disrupting workflows.
         </p>
